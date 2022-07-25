@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using P225FirstApi.DTOs.CategoryDTOs;
 using P225FirstApi.Data.Entities;
+using P225FirstApi.DTOs.BrandDTOs;
 
 namespace P225FirstApi.Mappings
 {
@@ -35,6 +36,12 @@ namespace P225FirstApi.Mappings
                 .ForMember(des => des.ParentId, src => src.MapFrom(s => s.Esasdirmi ? null : s.AidOlduguKategoriyaninIdsi))
                 .ForMember(des => des.Image, src => src.MapFrom(s => s.Esasdirmi ? s.Sekil : null))
                 .ForMember(des => des.UpdatedAt, src => DateTime.UtcNow.AddHours(4));
+            #endregion
+
+            #region Brand
+
+            CreateMap<Brand, BrandListDto>()
+                .ForMember(des => des.Name, src => src.MapFrom(s => s.Name));
             #endregion
         }
     }
