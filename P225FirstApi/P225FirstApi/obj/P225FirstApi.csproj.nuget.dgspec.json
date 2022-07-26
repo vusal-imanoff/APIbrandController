@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vusalmi\\Desktop\\P225_ASP_25-07-2022_FluentAPI_DTO_FluentValidation_AutoMapper\\P225FirstApi\\P225FirstApi\\P225FirstApi.csproj": {}
+    "C:\\Users\\user\\Desktop\\APIbrandController\\P225FirstApi\\P225FirstApi\\P225FirstApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vusalmi\\Desktop\\P225_ASP_25-07-2022_FluentAPI_DTO_FluentValidation_AutoMapper\\P225FirstApi\\P225FirstApi\\P225FirstApi.csproj": {
+    "C:\\Users\\user\\Desktop\\APIbrandController\\P225FirstApi\\P225FirstApi\\P225FirstApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vusalmi\\Desktop\\P225_ASP_25-07-2022_FluentAPI_DTO_FluentValidation_AutoMapper\\P225FirstApi\\P225FirstApi\\P225FirstApi.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\APIbrandController\\P225FirstApi\\P225FirstApi\\P225FirstApi.csproj",
         "projectName": "P225FirstApi",
-        "projectPath": "C:\\Users\\vusalmi\\Desktop\\P225_ASP_25-07-2022_FluentAPI_DTO_FluentValidation_AutoMapper\\P225FirstApi\\P225FirstApi\\P225FirstApi.csproj",
-        "packagesPath": "C:\\Users\\vusalmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vusalmi\\Desktop\\P225_ASP_25-07-2022_FluentAPI_DTO_FluentValidation_AutoMapper\\P225FirstApi\\P225FirstApi\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\APIbrandController\\P225FirstApi\\P225FirstApi\\P225FirstApi.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\APIbrandController\\P225FirstApi\\P225FirstApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vusalmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

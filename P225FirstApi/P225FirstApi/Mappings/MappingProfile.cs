@@ -41,7 +41,13 @@ namespace P225FirstApi.Mappings
             #region Brand
 
             CreateMap<Brand, BrandListDto>()
-                .ForMember(des => des.Name, src => src.MapFrom(s => s.Name));
+                .ForMember(des => des.Name, src => src.MapFrom(s => s.Name.Trim()));
+
+            CreateMap<BrandPostDto, Brand>()
+                .ForMember(des => des.Name, src => src.MapFrom(s => s.Name.Trim()));
+            //CreateMap<BrandPutDto,Brand>()
+            //    .ForMember(des => des.Name, src => src.MapFrom(s => s.Name.Trim()));
+
             #endregion
         }
     }
